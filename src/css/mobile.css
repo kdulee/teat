@@ -1,0 +1,79 @@
+#mobile_page{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.m_logo{
+    position: absolute;
+    margin: 0 22%;
+}
+
+.m_left_content{
+    margin-top: 10%;
+}
+
+.m_board_list{
+    width: 40%;
+    border-top: 10px solid #eee;
+}
+
+.m_board_list > div {
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+    padding: 5px 16px;
+}
+
+.m_board_list > div.top {
+    border-bottom: 10px solid #eee;
+}
+
+.m_board_list > div:last-child {
+    border-bottom: 10px solid #eee;
+}
+
+.m_board_list > div > div {
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.m_board_list > div.top > div {
+    font-weight: 600;
+}
+
+.m_board_list .num {
+    width: 10%;
+}
+
+.m_board_list .title {
+    width: 50%;
+    text-align: left;
+}
+
+.m_board_list .top .title {
+    text-align: center;
+}
+
+.m_board_list .writer {
+    width: 20%;
+}
+
+.m_board_list .date {
+    width: 10%;
+}
+
+.m_board_list .count {
+    width: 10%;
+}
+
+@media ( max-width: 480px ){
+    .m_board_list{
+        width: auto;
+    }
+}
+
+.m_Hotboard_list_wrap{
+    margin-top: 5%;
+}
